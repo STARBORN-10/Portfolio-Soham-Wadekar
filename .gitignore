@@ -1,0 +1,29 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary/intermediate files
+extracted_resumes_dump.txt
+
+# Resume PDFs (not needed for website deployment)
+*.pdf
+
+# Intermediate image processing files
+soham_photo.jpg
+soham_editorial.jpg
+soham_editorial_bw.jpg
+soham_hero_bw_emerald.jpg
+soham_hero_emerald.jpg
+profilepicture.png
+profilepicture_cutout.png
+moreiinfo.txt

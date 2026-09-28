@@ -1,0 +1,1356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soham Wadekar | AI & ML Engineer • Data Analyst • AI Automation Engineer</title>
+  <meta name="description" content="Portfolio of Soham Wadekar — Computer Science (AI & ML) student with 8.4 CGPA, ICAHTE-2026 Research Award Winner, 17x National Robotics & Innovation Champion, and builder of intelligent AI systems, analytics pipelines, and AI workflow automation.">
+  <meta name="keywords" content="Soham Wadekar, AI Automation Engineer, Machine Learning, Data Analyst, Workflow Automation, n8n, Python, SQL, Jaipur, Portfolio">
+  <meta name="author" content="Soham Wadekar">
+
+  <!-- Open Graph Meta -->
+  <meta property="og:title" content="Soham Wadekar | AI & ML Engineer • Data Analyst • AI Automation Engineer">
+  <meta property="og:description" content="Explore selected projects in AI/ML, Data Analytics, and Workflow Automation by Soham Wadekar.">
+  <meta property="og:image" content="profilepicture.png">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Bebas Neue (Hero Condensed Title), Plus Jakarta Sans (Editorial Body), JetBrains Mono (Tech/Metrics) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%231A56DB'/><text x='50%' y='65%' font-family='sans-serif' font-size='42' font-weight='900' fill='white' text-anchor='middle'>SHW</text></svg>">
+</head>
+<body data-theme="light">
+
+  <!-- Subtle noise overlay for luxury editorial paper feel -->
+  <div class="editorial-grain"></div>
+
+  <!-- Custom Cursor / Spotlight follower -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-outline" id="cursorOutline"></div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- TOP EDITORIAL BAR (Updated with SHW monogram & Blue Accents) -->
+  <header class="editorial-topbar" id="topBar">
+    <div class="topbar-inner">
+      <div class="topbar-left">
+        <span class="pulse-indicator"></span>
+        <span class="topbar-text">ENGINEERING INTELLIGENT SYSTEMS &amp; DATA PIPELINES</span>
+      </div>
+
+      <div class="topbar-center">
+        <a href="#hero" class="monogram-logo" aria-label="Soham Wadekar Homepage">
+          <span class="mono-letter">SHW</span>
+        </a>
+      </div>
+
+      <div class="topbar-right">
+        <span class="topbar-meta">PORTFOLIO 2026</span>
+        <button class="theme-toggle-btn" id="themeToggle" aria-label="Toggle Dark/Light Mode" title="Toggle theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" fill="none" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" fill="none" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- QUICK FLOATING NAV -->
+  <nav class="floating-nav" id="floatingNav">
+    <a href="#hero" class="fnav-link active" data-section="hero">Overview</a>
+    <a href="#projects" class="fnav-link" data-section="projects">Projects</a>
+    <a href="#skills-impact" class="fnav-link" data-section="skills-impact">Skills &amp; Impact</a>
+    <a href="#experience" class="fnav-link" data-section="experience">Experience</a>
+    <a href="#awards" class="fnav-link" data-section="awards">17x Honors</a>
+    <a href="#connect" class="fnav-link" data-section="connect">Connect</a>
+  </nav>
+
+  <main class="page-container">
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero-section" id="hero">
+      <div class="hero-grid">
+        
+        <!-- Left Column: Typography & Bio -->
+        <div class="hero-text-col">
+          <div class="hero-badge-wrap">
+            <span class="hero-status-pill">
+              <span class="status-dot"></span> Available for Roles &amp; Collaborations
+            </span>
+          </div>
+
+          <h1 class="hero-display-name">
+            <span class="name-line">SOHAM</span>
+            <span class="name-line">WADEKAR</span>
+          </h1>
+
+          <p class="hero-kicker">
+            AI &amp; ML ENGINEER • DATA ANALYST • AI AUTOMATION ENGINEER
+          </p>
+
+          <p class="hero-bio">
+            Final-year Computer Science (AI &amp; ML) undergraduate at UEM Jaipur with an <strong>8.4 CGPA</strong> and a <strong>Data Science minor</strong>. Recipient of the <strong>2nd Best Research Paper Award</strong> at ICAHTE-2026 and <strong>17x National Robotics &amp; Innovation Champion</strong> (IIT Delhi, IIT Ropar, IIT Bombay, NIT Surathkal). I engineer autonomous AI agent workflows, end-to-end data analytics pipelines, and intelligent systems that turn complex datasets into measurable impact.
+          </p>
+
+          <div class="hero-accent-dash"></div>
+
+          <!-- Hero Action Links -->
+          <div class="hero-actions">
+            <a href="#projects" class="btn-primary">
+              <span>Selected Projects</span>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="Soham_Wadekar_Resume.pdf" download="Soham_Wadekar_Resume.pdf" class="btn-secondary" id="downloadResumeHero">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+              <span>Download Resume</span>
+            </a>
+            <a href="#connect" class="btn-ghost">Let's Connect</a>
+          </div>
+
+          <!-- Quick Highlight Micro-badges -->
+          <div class="hero-highlights">
+            <div class="highlight-chip">
+              <span class="chip-accent">8.4</span>
+              <span class="chip-label">CGPA (CS &amp; ML)</span>
+            </div>
+            <div class="highlight-chip">
+              <span class="chip-accent">17x Honors</span>
+              <span class="chip-label">National Podiums</span>
+            </div>
+            <div class="highlight-chip">
+              <span class="chip-accent">100K+</span>
+              <span class="chip-label">Data Records Cleaned</span>
+            </div>
+            <div class="highlight-chip">
+              <span class="chip-accent">IIT Delhi • Ropar • Bombay</span>
+              <span class="chip-label">RoboWar Champion</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Signature Editorial Blue Portrait Graphic with Dynamic 17-Achievement Floating Badges -->
+        <div class="hero-visual-col">
+          <div class="portrait-stage" id="portraitStage">
+            <!-- Background Blue Circle Graphic (Refined Royal Sapphire Blue) -->
+            <div class="hero-circle" id="heroCircle">
+              <div class="hero-glow"></div>
+            </div>
+
+            <!-- Profile Picture Cutout / Portrait Container -->
+            <div class="portrait-wrapper">
+              <img 
+                src="profilepicture_cutout.png" 
+                alt="Soham Wadekar — AI & ML Engineer" 
+                class="portrait-img"
+                id="mainPortraitImg"
+                onerror="this.src='profilepicture.png'"
+              >
+            </div>
+
+            <!-- DYNAMIC FLOATING ACHIEVEMENT CARDS (Cycling through the 17 achievements provided by user) -->
+            <div class="floating-badge badge-top-left" id="heroBadge1" data-tilt-speed="0.05">
+              <span class="fbadge-icon" id="heroBadge1Icon">🥇</span>
+              <div class="fbadge-text">
+                <strong id="heroBadge1Title">ADVItya — IIT Ropar</strong>
+                <span id="heroBadge1Sub">1st Place — Robowar • 2025</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-bottom-right" id="heroBadge2" data-tilt-speed="0.08">
+              <span class="fbadge-icon" id="heroBadge2Icon">🥈</span>
+              <div class="fbadge-text">
+                <strong id="heroBadge2Title">ICAHTE — UEM Jaipur</strong>
+                <span id="heroBadge2Sub">2nd Prize — Research • 2026</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-top-right" id="heroBadge3" data-tilt-speed="0.06">
+              <span class="fbadge-icon" id="heroBadge3Icon">🏆</span>
+              <div class="fbadge-text">
+                <strong id="heroBadge3Title">Techfest — IIT Bombay</strong>
+                <span id="heroBadge3Sub">Team Nemesis × Team Xenon • 2026</span>
+              </div>
+            </div>
+
+            <!-- Achievements Ticker Controller Badge -->
+            <div class="floating-badge badge-bottom-left" id="heroBadgeController">
+              <span class="fbadge-icon">⚡</span>
+              <div class="fbadge-text">
+                <strong id="tickerCounterText">Honor 1 of 17</strong>
+                <span>Auto-Cycling Podium Wins</span>
+              </div>
+              <div class="ticker-buttons">
+                <button class="ticker-btn" id="tickerPrevBtn" title="Previous Achievement">&larr;</button>
+                <button class="ticker-btn" id="tickerNextBtn" title="Next Achievement">&rarr;</button>
+              </div>
+            </div>
+
+            <!-- Portrait Mode Toggle (Editorial B&W vs Vibrant Color) -->
+            <div class="portrait-mode-switcher">
+              <button class="pmode-btn active" id="btnModeBw" title="Editorial Monochrome Mode">Editorial</button>
+              <button class="pmode-btn" id="btnModeColor" title="Natural Color Mode">Vibrant</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <hr class="section-divider">
+
+    <!-- ==================== SELECTED PROJECTS SECTION ==================== -->
+    <section class="projects-section" id="projects">
+      <div class="projects-layout">
+        
+        <!-- Left Side: Section Intro & Filter -->
+        <div class="projects-sidebar">
+          <div class="sticky-sidebar-content">
+            <h2 class="section-title">SELECTED<br>PROJECTS</h2>
+            <p class="section-desc">
+              A selection of work that reflects strategy, clarity, and impact — spanning Generative AI, intelligent automation, data analytics, and IoT engineering.
+            </p>
+
+            <div class="project-filter-pills" id="projectFilters" role="tablist">
+              <button class="filter-pill active" data-filter="all" role="tab">All Projects <span class="count-tag">7</span></button>
+              <button class="filter-pill" data-filter="ai-ml" role="tab">AI &amp; LLMs <span class="count-tag">3</span></button>
+              <button class="filter-pill" data-filter="analytics" role="tab">Data Analytics &amp; SQL <span class="count-tag">3</span></button>
+              <button class="filter-pill" data-filter="automation" role="tab">Automation <span class="count-tag">2</span></button>
+              <button class="filter-pill" data-filter="iot" role="tab">IoT &amp; Hardware <span class="count-tag">1</span></button>
+            </div>
+
+            <a href="https://github.com/STARBORN-10" target="_blank" rel="noopener noreferrer" class="view-all-projects-link">
+              <span>VIEW ALL ON GITHUB</span>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Side: Projects Grid (Clean card showcase matching reference) -->
+        <div class="projects-grid" id="projectsGrid">
+
+          <!-- 01 MEDISENSE -->
+          <article class="project-card" data-category="ai-ml" data-id="medisense">
+            <div class="project-header">
+              <span class="project-num">01</span>
+              <div class="project-title-group">
+                <h3 class="project-name">MEDISENSE</h3>
+                <span class="project-subtitle">AI Medical Report Analyzer &amp; Clinical OCR</span>
+              </div>
+            </div>
+            
+            <div class="project-accent-dash"></div>
+
+            <div class="project-preview-frame">
+              <div class="mockup-device tablet-frame">
+                <div class="device-notch"></div>
+                <div class="device-screen dark-ui">
+                  <div class="mock-header">
+                    <span class="mock-pill blue">MEDISENSE v2.4</span>
+                    <span class="mock-tag">Ollama + LLaMA 3</span>
+                  </div>
+                  <div class="mock-body">
+                    <div class="mock-metric-row">
+                      <div class="mock-metric-card">
+                        <span class="m-val">98.2%</span>
+                        <span class="m-lbl">OCR Accuracy</span>
+                      </div>
+                      <div class="mock-metric-card">
+                        <span class="m-val">&lt; 1.4s</span>
+                        <span class="m-lbl">Inference Latency</span>
+                      </div>
+                    </div>
+                    <div class="mock-chart-line">
+                      <div class="mock-chart-bar" style="height: 45%;"></div>
+                      <div class="mock-chart-bar" style="height: 70%;"></div>
+                      <div class="mock-chart-bar active" style="height: 90%;"></div>
+                      <div class="mock-chart-bar" style="height: 60%;"></div>
+                      <div class="mock-chart-bar" style="height: 85%;"></div>
+                    </div>
+                    <div class="mock-summary-box">
+                      <p>“Patient blood count parameters parsed. LLaMA 3 clinical interpretation generated for patient portal.”</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-hover-overlay">
+                <span class="overlay-cta">View Case Study &rarr;</span>
+              </div>
+            </div>
+
+            <p class="project-description">
+              Healthcare data pipeline extracting, cleaning, and structuring clinical parameters from scanned lab reports using OCR, OpenCV, and FastAPI. Synthesizes medical jargon into patient-comprehensible summaries using local LLaMA 3.
+            </p>
+
+            <div class="project-meta-badges">
+              <span class="meta-badge highlight-badge">🏆 2nd Prize @ ICAHTE-2026</span>
+              <span class="meta-badge">React.js</span>
+              <span class="meta-badge">FastAPI</span>
+              <span class="meta-badge">EasyOCR</span>
+              <span class="meta-badge">LLaMA 3</span>
+            </div>
+
+            <div class="project-footer">
+              <button class="project-btn-details" onclick="openProjectModal('medisense')">Deep Dive Details</button>
+              <a href="https://github.com/STARBORN-10" target="_blank" rel="noopener noreferrer" class="project-btn-icon" aria-label="GitHub Repo">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 02 INVOICE INTELLIGENCE SYSTEM -->
+          <article class="project-card" data-category="analytics" data-id="invoice">
+            <div class="project-header">
+              <span class="project-num">02</span>
+              <div class="project-title-group">
+                <h3 class="project-name">INVOICE INTELLIGENCE</h3>
+                <span class="project-subtitle">ETL Pipeline &amp; Anomaly Detection</span>
+              </div>
+            </div>
+
+            <div class="project-accent-dash"></div>
+
+            <div class="project-preview-frame">
+              <div class="mockup-device laptop-frame">
+                <div class="device-screen dark-ui">
+                  <div class="mock-header">
+                    <span class="mock-pill blue">INVOICE AUDIT ETL</span>
+                    <span class="mock-tag">Streamlit + SQL</span>
+                  </div>
+                  <div class="mock-body">
+                    <div class="mock-metric-row">
+                      <div class="mock-metric-card">
+                        <span class="m-val">94.6%</span>
+                        <span class="m-lbl">Anomaly Flagging</span>
+                      </div>
+                      <div class="mock-metric-card">
+                        <span class="m-val">$182K</span>
+                        <span class="m-lbl">Discrepancy Catch</span>
+                      </div>
+                    </div>
+                    <div class="mock-table-lines">
+                      <div class="mock-t-row header"><span>INV-ID</span><span>VENDOR</span><span>RISK</span></div>
+                      <div class="mock-t-row alert"><span>#8841</span><span>Apex Freight</span><span class="badge-flag">High Bias</span></div>
+                      <div class="mock-t-row"><span>#8842</span><span>Metro Log</span><span class="badge-ok">Passed</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-hover-overlay">
+                <span class="overlay-cta">View Case Study &rarr;</span>
+              </div>
+            </div>
+
+            <p class="project-description">
+              SQL-backed ETL system and Streamlit dashboard built for automated invoice parsing, statistical anomaly detection to flag irregular billing, and a machine learning regression model to predict freight costs based on shipment metrics.
+            </p>
+
+            <div class="project-meta-badges">
+              <span class="meta-badge">Python</span>
+              <span class="meta-badge">SQL / SQLite</span>
+              <span class="meta-badge">Scikit-learn</span>
+              <span class="meta-badge">Streamlit</span>
+              <span class="meta-badge">ETL</span>
+            </div>
+
+            <div class="project-footer">
+              <button class="project-btn-details" onclick="openProjectModal('invoice')">Deep Dive Details</button>
+              <a href="https://github.com/STARBORN-10" target="_blank" rel="noopener noreferrer" class="project-btn-icon" aria-label="GitHub Repo">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 03 TECHPLUS AI -->
+          <article class="project-card" data-category="automation" data-id="techplusai">
+            <div class="project-header">
+              <span class="project-num">03</span>
+              <div class="project-title-group">
+                <h3 class="project-name">TECHPLUS AI</h3>
+                <span class="project-subtitle">Autonomous News Automation &amp; LLM Digest</span>
+              </div>
+            </div>
+
+            <div class="project-accent-dash"></div>
+
+            <div class="project-preview-frame">
+              <div class="mockup-device phone-frame">
+                <div class="device-screen dark-ui">
+                  <div class="mock-header">
+                    <span class="mock-pill blue">n8n WORKFLOW</span>
+                    <span class="mock-tag">Groq API</span>
+                  </div>
+                  <div class="mock-body flex-center">
+                    <div class="workflow-nodes">
+                      <div class="wf-node rss"><span>RSS Feed Stream</span></div>
+                      <div class="wf-arrow">&darr;</div>
+                      <div class="wf-node ai"><span>LLaMA 3 (Groq API)</span></div>
+                      <div class="wf-arrow">&darr;</div>
+                      <div class="wf-node sheets"><span>Google Sheets API</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-hover-overlay">
+                <span class="overlay-cta">View Case Study &rarr;</span>
+              </div>
+            </div>
+
+            <p class="project-description">
+              End-to-end autonomous content pipeline orchestrated via n8n and Make.com. Monitors global RSS feeds, triggers webhook-based filtering, summarizes technical breakthroughs using Groq API (LLaMA 3), and logs structured records directly to Google Sheets.
+            </p>
+
+            <div class="project-meta-badges">
+              <span class="meta-badge">n8n</span>
+              <span class="meta-badge">Make.com</span>
+              <span class="meta-badge">Groq API</span>
+              <span class="meta-badge">Google Sheets API</span>
+              <span class="meta-badge">Webhooks</span>
+            </div>
+
+            <div class="project-footer">
+              <button class="project-btn-details" onclick="openProjectModal('techplusai')">Deep Dive Details</button>
+              <a href="https://github.com/STARBORN-10" target="_blank" rel="noopener noreferrer" class="project-btn-icon" aria-label="GitHub Repo">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 04 RETAIL ANALYTICS 100K TRANSACTIONS -->
+          <article class="project-card" data-category="analytics" data-id="retail">
+            <div class="project-header">
+              <span class="project-num">04</span>
+              <div class="project-title-group">
+                <h3 class="project-name">RETAIL PIPELINE &amp; KPI DASHBOARD</h3>
+                <span class="project-subtitle">100,000+ Multi-Category Transaction Engine</span>
+              </div>
+            </div>
+
+            <div class="project-accent-dash"></div>
+
+            <div class="project-preview-frame">
+              <div class="mockup-device tablet-frame">
+                <div class="device-screen dark-ui">
+                  <div class="mock-header">
+                    <span class="mock-pill blue">RETAIL BI DASHBOARD</span>
+                    <span class="mock-tag">$39.3M Volume</span>
+                  </div>
+                  <div class="mock-body">
+                    <div class="mock-metric-row">
+                      <div class="mock-metric-card">
+                        <span class="m-val">100K+</span>
+                        <span class="m-lbl">Transactions</span>
+                      </div>
+                      <div class="mock-metric-card">
+                        <span class="m-val">19.34%</span>
+                        <span class="m-lbl">Avg. Margin</span>
+                      </div>
+                    </div>
+                    <div class="mock-cat-bars">
+                      <div class="cat-bar-item"><span class="cat-name">Electronics</span><div class="bar-fill" style="width: 82%;"></div></div>
+                      <div class="cat-bar-item"><span class="cat-name">Apparel</span><div class="bar-fill" style="width: 64%;"></div></div>
+                      <div class="cat-bar-item"><span class="cat-name">Home Living</span><div class="bar-fill" style="width: 49%;"></div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-hover-overlay">
+                <span class="overlay-cta">View Case Study &rarr;</span>
+              </div>
+            </div>
+
+            <p class="project-description">
+              End-to-end SQL, Python, and Excel pipeline processing 100,000+ retail orders across 8 product categories for Renu Sharma Foundation. Surfaced $39.3M in revenue, optimized inventory reconciliation, and built executive KPI dashboards.
+            </p>
+
+            <div class="project-meta-badges">
+              <span class="meta-badge">SQL (CTEs &amp; Joins)</span>
+              <span class="meta-badge">Python (Pandas)</span>
+              <span class="meta-badge">Power BI / Excel</span>
+              <span class="meta-badge">KPI Analytics</span>
+            </div>
+
+            <div class="project-footer">
+              <button class="project-btn-details" onclick="openProjectModal('retail')">Deep Dive Details</button>
+              <a href="https://github.com/STARBORN-10" target="_blank" rel="noopener noreferrer" class="project-btn-icon" aria-label="GitHub Repo">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 05 LOAN DEFAULT RISK PREDICTOR -->
+          <article class="project-card" data-category="ai-ml" data-id="loandefault">
+            <div class="project-header">
+              <span class="project-num">05</span>
+              <div class="project-title-group">
+                <h3 class="project-name">LOAN DEFAULT RISK PREDICTOR</h3>
+                <span class="project-subtitle">Credit Risk Classification &amp; ML Pipeline</span>
+              </div>
+            </div>
+
+            <div class="project-accent-dash"></div>
+
+            <div class="project-preview-frame">
+              <div class="mockup-device tablet-frame">
+                <div class="device-screen dark-ui">
+                  <div class="mock-header">
+                    <span class="mock-pill blue">CREDIT RISK MODEL</span>
+                    <span class="mock-tag">Scikit-learn</span>
+                  </div>
+                  <div class="mock-body">
+                    <div class="mock-metric-row">
+                      <div class="mock-metric-card">
+                        <span class="m-val">89.4%</span>
+                        <span class="m-lbl">ROC-AUC</span>
+                      </div>
+                      <div class="mock-metric-card">
+                        <span class="m-val">0.86</span>
+                        <span class="m-lbl">F1-Score</span>
+                      </div>
+                    </div>
+                    <div class="mock-roc-curve">
+                      <svg viewBox="0 0 200 80" class="mini-svg-chart">
+                        <path d="M10 70 Q 40 20, 190 10" fill="none" stroke="#1A56DB" stroke-width="3"/>
+                        <path d="M10 70 L 190 10" fill="none" stroke="#555" stroke-dasharray="3,3" stroke-width="1"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-hover-overlay">
+                <span class="overlay-cta">View Case Study &rarr;</span>
+              </div>
+            </div>
+
+            <p class="project-description">
+              Predictive financial risk pipeline implementing exploratory data analysis, class rebalancing, feature scaling, and ensemble models (Random Forest, Gradient Boosting) to forecast credit delinquency with high sensitivity.
+            </p>
+
+            <div class="project-meta-badges">
+              <span class="meta-badge">Python</span>
+              <span class="meta-badge">Scikit-learn</span>
+              <span class="meta-badge">Pandas / NumPy</span>
+              <span class="meta-badge">Classification ML</span>
+            </div>
+
+            <div class="project-footer">
+              <button class="project-btn-details" onclick="openProjectModal('loandefault')">Deep Dive Details</button>
+              <a href="https://github.com/STARBORN-10" target="_blank" rel="noopener noreferrer" class="project-btn-icon" aria-label="GitHub Repo">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 06 THIRSTCHECK PRO -->
+          <article class="project-card" data-category="iot" data-id="thirstcheck">
+            <div class="project-header">
+              <span class="project-num">06</span>
+              <div class="project-title-group">
+                <h3 class="project-name">THIRSTCHECK PRO</h3>
+                <span class="project-subtitle">IoT Real-Time Hydration Telemetry</span>
+              </div>
+            </div>
+
+            <div class="project-accent-dash"></div>
+
+            <div class="project-preview-frame">
+              <div class="mockup-device phone-frame">
+                <div class="device-screen dark-ui">
+                  <div class="mock-header">
+                    <span class="mock-pill blue">ESP32 + FIREBASE</span>
+                    <span class="mock-tag">Live Sensor</span>
+                  </div>
+                  <div class="mock-body flex-center">
+                    <div class="iot-gauge">
+                      <div class="gauge-circle">
+                        <span class="g-num">78%</span>
+                        <span class="g-lbl">Optimal Hydration</span>
+                      </div>
+                      <span class="g-stream">GSR Stream Active &bull; 100ms</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-hover-overlay">
+                <span class="overlay-cta">View Case Study &rarr;</span>
+              </div>
+            </div>
+
+            <p class="project-description">
+              Embedded biotelemetry device coupling ESP32/ESP8266 microcontrollers with Galvanic Skin Response (GSR) sensors, streaming physiological metrics directly to Google Firebase Realtime Database for responsive web monitoring.
+            </p>
+
+            <div class="project-meta-badges">
+              <span class="meta-badge">ESP32 / ESP8266</span>
+              <span class="meta-badge">GSR Sensor</span>
+              <span class="meta-badge">Firebase Realtime DB</span>
+              <span class="meta-badge">IoT Hardware</span>
+            </div>
+
+            <div class="project-footer">
+              <button class="project-btn-details" onclick="openProjectModal('thirstcheck')">Deep Dive Details</button>
+              <a href="https://github.com/STARBORN-10" target="_blank" rel="noopener noreferrer" class="project-btn-icon" aria-label="GitHub Repo">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 07 PIZZA HUT SALES ANALYTICS -->
+          <article class="project-card" data-category="analytics" data-id="pizzahut">
+            <div class="project-header">
+              <span class="project-num">07</span>
+              <div class="project-title-group">
+                <h3 class="project-name">PIZZA HUT SALES ANALYTICS</h3>
+                <span class="project-subtitle">Relational SQL Modeling &amp; Revenue Insights</span>
+              </div>
+            </div>
+
+            <div class="project-accent-dash"></div>
+
+            <div class="project-preview-frame">
+              <div class="mockup-device laptop-frame">
+                <div class="device-screen dark-ui">
+                  <div class="mock-header">
+                    <span class="mock-pill blue">SQL ANALYTICS ENGINE</span>
+                    <span class="mock-tag">MySQL Workbench</span>
+                  </div>
+                  <div class="mock-body">
+                    <div class="mock-sql-code">
+                      <span class="c-kw">WITH</span> DailySales <span class="c-kw">AS</span> (<br>
+                      &nbsp;&nbsp;<span class="c-kw">SELECT</span> category, <span class="c-fn">SUM</span>(price * qty) <span class="c-kw">AS</span> rev,<br>
+                      &nbsp;&nbsp;<span class="c-fn">RANK</span>() <span class="c-kw">OVER</span>(<span class="c-kw">ORDER BY</span> <span class="c-fn">SUM</span>(rev) <span class="c-kw">DESC</span>)<br>
+                      &nbsp;&nbsp;<span class="c-kw">FROM</span> pizza_orders <span class="c-kw">GROUP BY</span> category<br>
+                      )
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-hover-overlay">
+                <span class="overlay-cta">View Case Study &rarr;</span>
+              </div>
+            </div>
+
+            <p class="project-description">
+              Complex SQL business performance evaluation structured into basic, intermediate, and advanced analytical queries using CTEs, window functions, and multi-table joins to pinpoint peak order hours and highest-margin categories.
+            </p>
+
+            <div class="project-meta-badges">
+              <span class="meta-badge">SQL</span>
+              <span class="meta-badge">MySQL</span>
+              <span class="meta-badge">CTEs &amp; Window Functions</span>
+              <span class="meta-badge">Business Intelligence</span>
+            </div>
+
+            <div class="project-footer">
+              <button class="project-btn-details" onclick="openProjectModal('pizzahut')">Deep Dive Details</button>
+              <a href="https://github.com/STARBORN-10" target="_blank" rel="noopener noreferrer" class="project-btn-icon" aria-label="GitHub Repo">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <hr class="section-divider">
+
+    <!-- ==================== SKILLS & TOOLKIT VS IMPACT & EXPERIENCE ==================== -->
+    <section class="skills-impact-section" id="skills-impact">
+      <div class="skills-impact-grid">
+
+        <!-- Left Column: Skills & Toolkit (Exact reference progress bar layout with Blue Accents) -->
+        <div class="skills-col">
+          <h2 class="section-subheading">SKILLS &amp; TOOLKIT</h2>
+          
+          <div class="skill-bars-list">
+
+            <!-- Item 1 -->
+            <div class="skill-row" data-skill-level="95">
+              <div class="skill-row-left">
+                <span class="skill-icon-bullet">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="3"></circle></svg>
+                </span>
+                <span class="skill-title">PYTHON &amp; MACHINE LEARNING</span>
+              </div>
+              <div class="skill-row-right">
+                <div class="skill-track">
+                  <div class="skill-fill" style="--target-width: 95%;"></div>
+                </div>
+                <span class="skill-percentage">95%</span>
+              </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="skill-row" data-skill-level="92">
+              <div class="skill-row-left">
+                <span class="skill-icon-bullet">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                </span>
+                <span class="skill-title">GENERATIVE AI &amp; LLMS (RAG, OLLAMA, GROQ)</span>
+              </div>
+              <div class="skill-row-right">
+                <div class="skill-track">
+                  <div class="skill-fill" style="--target-width: 92%;"></div>
+                </div>
+                <span class="skill-percentage">92%</span>
+              </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="skill-row" data-skill-level="94">
+              <div class="skill-row-left">
+                <span class="skill-icon-bullet">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+                </span>
+                <span class="skill-title">DATA ANALYTICS, EDA &amp; POWER BI</span>
+              </div>
+              <div class="skill-row-right">
+                <div class="skill-track">
+                  <div class="skill-fill" style="--target-width: 94%;"></div>
+                </div>
+                <span class="skill-percentage">94%</span>
+              </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="skill-row" data-skill-level="90">
+              <div class="skill-row-left">
+                <span class="skill-icon-bullet">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+                </span>
+                <span class="skill-title">SQL, RELATIONAL DATABASES &amp; ETL</span>
+              </div>
+              <div class="skill-row-right">
+                <div class="skill-track">
+                  <div class="skill-fill" style="--target-width: 90%;"></div>
+                </div>
+                <span class="skill-percentage">90%</span>
+              </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="skill-row" data-skill-level="91">
+              <div class="skill-row-left">
+                <span class="skill-icon-bullet">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+                </span>
+                <span class="skill-title">AI AUTOMATION &amp; WORKFLOWS (N8N, MAKE, APIS)</span>
+              </div>
+              <div class="skill-row-right">
+                <div class="skill-track">
+                  <div class="skill-fill" style="--target-width: 91%;"></div>
+                </div>
+                <span class="skill-percentage">91%</span>
+              </div>
+            </div>
+
+            <!-- Item 6 -->
+            <div class="skill-row" data-skill-level="86">
+              <div class="skill-row-left">
+                <span class="skill-icon-bullet">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                </span>
+                <span class="skill-title">BACKEND &amp; WEB APIS (FASTAPI, REACT)</span>
+              </div>
+              <div class="skill-row-right">
+                <div class="skill-track">
+                  <div class="skill-fill" style="--target-width: 86%;"></div>
+                </div>
+                <span class="skill-percentage">86%</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Comprehensive Skills Chips Breakdown -->
+          <div class="skills-deep-chips">
+            <h4 class="chips-category-title">Core Ecosystem &amp; Technologies</h4>
+            <div class="chips-flex">
+              <span class="chip-item">Python</span>
+              <span class="chip-item">SQL (MySQL / Postgres)</span>
+              <span class="chip-item">LLaMA 3</span>
+              <span class="chip-item">Ollama</span>
+              <span class="chip-item">Groq API</span>
+              <span class="chip-item">RAG &amp; Embeddings</span>
+              <span class="chip-item">n8n</span>
+              <span class="chip-item">Make.com</span>
+              <span class="chip-item">AI Workflow Automation</span>
+              <span class="chip-item">FastAPI</span>
+              <span class="chip-item">React</span>
+              <span class="chip-item">Power BI</span>
+              <span class="chip-item">Tableau</span>
+              <span class="chip-item">Pandas &amp; NumPy</span>
+              <span class="chip-item">Scikit-learn</span>
+              <span class="chip-item">TensorFlow</span>
+              <span class="chip-item">OpenCV &amp; EasyOCR</span>
+              <span class="chip-item">Firebase</span>
+              <span class="chip-item">Git &amp; GitHub</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Impact & Experience (Exact reference stats + quote layout) -->
+        <div class="impact-col">
+          <h2 class="section-subheading">IMPACT &amp; EXPERIENCE</h2>
+
+          <div class="impact-stats-row">
+            <!-- Stat 1 -->
+            <div class="stat-block">
+              <span class="stat-number" data-count="8.4" data-decimals="1">8.4</span>
+              <span class="stat-label">CGPA (CS &amp; ML)</span>
+            </div>
+
+            <!-- Stat 2 -->
+            <div class="stat-block">
+              <span class="stat-number" data-count="100" data-suffix="K+">100K+</span>
+              <span class="stat-label">RECORDS ANALYZED</span>
+            </div>
+
+            <!-- Stat 3 -->
+            <div class="stat-block">
+              <span class="stat-number" data-count="17" data-suffix="+">17+</span>
+              <span class="stat-label">NATIONAL PODIUM AWARDS</span>
+            </div>
+          </div>
+
+          <!-- Signature Editorial Quote Box with Blue Quote Mark -->
+          <div class="editorial-quote-card">
+            <div class="quote-mark-icon">&ldquo;</div>
+            <div class="quote-content">
+              <p class="quote-text">
+                Engineering intelligent AI is not merely about tuning model parameters — it is about designing resilient automated pipelines that transform chaotic raw data into dependable decisions.
+              </p>
+              <div class="quote-author-line">
+                <span class="author-name">SOHAM WADEKAR</span>
+                <span class="author-role">&bull; BUILDER'S CREED</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Research Spotlight Card -->
+          <div class="research-spotlight-card">
+            <div class="r-badge-tag">INTERNATIONAL RESEARCH SPOTLIGHT</div>
+            <h4 class="r-card-title">2nd Prize Award — ICAHTE 2026</h4>
+            <p class="r-card-desc">
+              Awarded at the International Conference on Advances in Healthcare Technologies &amp; Engineering for authoring the architectural study and algorithmic implementation of <strong>MediSense</strong> — an automated clinical OCR and LLM report synthesis system.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <hr class="section-divider">
+
+    <!-- ==================== WORK EXPERIENCE & EDUCATION ==================== -->
+    <section class="experience-section" id="experience">
+      <div class="experience-header-row">
+        <div>
+          <h2 class="section-title">WORK EXPERIENCE &amp;<br>ACADEMIC RECORD</h2>
+          <p class="section-desc">Practical industry internships, research contributions, and formal computer science education.</p>
+        </div>
+      </div>
+
+      <div class="timeline-container">
+
+        <!-- Timeline Item 1: Renu Sharma Foundation -->
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="t-date">AUG 2026 &mdash; PRESENT</span>
+            <span class="t-loc">Jaipur, India</span>
+          </div>
+          <div class="timeline-bullet"></div>
+          <div class="timeline-content">
+            <div class="t-role-header">
+              <h3 class="t-role">Data Analyst Intern</h3>
+              <span class="t-company">Renu Sharma Foundation</span>
+            </div>
+            <ul class="t-bullets">
+              <li><strong>100,000+ Transaction Analytics:</strong> Executed an end-to-end retail analytics data pipeline across 8 product categories using SQL, Python (Pandas/NumPy), and Excel/Power BI, surfacing <strong>$39.3M+ in revenue</strong> and a <strong>19.34% average margin</strong>.</li>
+              <li><strong>Relational SQL Querying:</strong> Authored advanced SQL scripts incorporating CTEs, multi-table joins, aggregations, and window functions to extract top customer segments, geographic sales patterns, and order size trends.</li>
+              <li><strong>Data Quality Reconciliation:</strong> Preprocessed, cleaned, and validated dirty e-commerce datasets — resolving null values, duplicates, and type mismatches with documented before-and-after audit notebooks.</li>
+              <li><strong>Interactive KPI Dashboards:</strong> Designed Excel and BI dashboards tracking category volume, regional margin contributions, and representative metrics for executive reviews.</li>
+              <li><strong>Telecom Churn Modeling:</strong> Performed correlation and outlier exploratory analysis on customer retention data, pinpointing top behavioral churn triggers.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Timeline Item 2: EduSkills AICTE -->
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="t-date">2025 &mdash; 2026</span>
+            <span class="t-loc">Remote &bull; AICTE Portal</span>
+          </div>
+          <div class="timeline-bullet"></div>
+          <div class="timeline-content">
+            <div class="t-role-header">
+              <h3 class="t-role">AI / ML &amp; Data Engineering Virtual Intern</h3>
+              <span class="t-company">EduSkills (AICTE) / National Internship Portal</span>
+            </div>
+            <ul class="t-bullets">
+              <li><strong>Deep Learning &amp; Computer Vision:</strong> Trained and optimized Convolutional Neural Networks (CNNs) using TensorFlow for image classification and feature extraction tasks.</li>
+              <li><strong>Predictive ML Modeling:</strong> Built and benchmarked classification, regression, and clustering algorithms in Scikit-learn; engineered domain features and tuned hyperparameters using cross-validation.</li>
+              <li><strong>Data Engineering &amp; ETL:</strong> Constructed robust data transformation pipelines and automated query workflows against MySQL databases for analytics readiness.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Timeline Item 3: University Education -->
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="t-date">JUL 2023 &mdash; 2027</span>
+            <span class="t-loc">Jaipur, Rajasthan</span>
+          </div>
+          <div class="timeline-bullet"></div>
+          <div class="timeline-content">
+            <div class="t-role-header">
+              <h3 class="t-role">B.Tech in Computer Science &amp; Engineering (AI &amp; ML)</h3>
+              <span class="t-company">University of Engineering and Management (UEM), Jaipur</span>
+            </div>
+            <p class="t-summary">
+              <strong>Minor:</strong> Data Science &bull; <strong>CGPA: 8.4 / 10.0</strong><br>
+              <strong>Relevant Coursework:</strong> Machine Learning, Deep Learning, Generative AI, AI Automation, Data Structures &amp; Algorithms, Object-Oriented Programming (C++/Python), DBMS &amp; SQL, Probability &amp; Statistics, Operating Systems.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <hr class="section-divider">
+
+    <!-- ==================== HONORS & ALL 17 NATIONAL ACHIEVEMENTS ==================== -->
+    <section class="awards-section" id="awards">
+      <div class="awards-header-row">
+        <div>
+          <h2 class="section-title">17X PODIUM HONORS &amp;<br>ROBOTICS CHAMPIONSHIPS</h2>
+          <p class="section-desc">Complete, verified track record across premier IITs, NITs, IEEE conferences, and international robotics championships.</p>
+        </div>
+        <div class="award-filter-tabs" id="awardFilterTabs">
+          <button class="award-tab-btn active" data-award-filter="all">All 17</button>
+          <button class="award-tab-btn" data-award-filter="2026">2026</button>
+          <button class="award-tab-btn" data-award-filter="2025">2025</button>
+          <button class="award-tab-btn" data-award-filter="2024">2024</button>
+          <button class="award-tab-btn" data-award-filter="2023">2023</button>
+        </div>
+      </div>
+
+      <div class="awards-grid-full" id="awardsGridFull">
+
+        <!-- 17 -->
+        <div class="award-card-detailed" data-year="2026">
+          <div class="ac-num">17</div>
+          <div class="ac-badge">🥈 2nd Prize</div>
+          <div class="ac-info">
+            <h4 class="ac-title">ICAHTE — UEM Jaipur</h4>
+            <span class="ac-sub">Healthcare Technologies &amp; Engineering Conference</span>
+          </div>
+          <div class="ac-year">2026</div>
+        </div>
+
+        <!-- 16 -->
+        <div class="award-card-detailed" data-year="2026">
+          <div class="ac-num">16</div>
+          <div class="ac-badge">🏆 Representation</div>
+          <div class="ac-info">
+            <h4 class="ac-title">Techfest — IIT Bombay, RoboWars</h4>
+            <span class="ac-sub">Represented Team Nemesis Robotics &times; Team Xenon</span>
+          </div>
+          <div class="ac-year">2026</div>
+        </div>
+
+        <!-- 15 -->
+        <div class="award-card-detailed" data-year="2025">
+          <div class="ac-num">15</div>
+          <div class="ac-badge">🥉 3rd Place</div>
+          <div class="ac-info">
+            <h4 class="ac-title">BLM Muljal University — Robowar</h4>
+            <span class="ac-sub">Combat Robotics Championship</span>
+          </div>
+          <div class="ac-year">2025</div>
+        </div>
+
+        <!-- 14 -->
+        <div class="award-card-detailed" data-year="2025">
+          <div class="ac-num">14</div>
+          <div class="ac-badge">🥈 2nd Place</div>
+          <div class="ac-info">
+            <h4 class="ac-title">BLM Muljal University — Robowar</h4>
+            <span class="ac-sub">Combat Robotics Championship</span>
+          </div>
+          <div class="ac-year">2025</div>
+        </div>
+
+        <!-- 13 -->
+        <div class="award-card-detailed" data-year="2025">
+          <div class="ac-num">13</div>
+          <div class="ac-badge">🥇 1st Place</div>
+          <div class="ac-info">
+            <h4 class="ac-title">UEM Tech Utopia — Death Race</h4>
+            <span class="ac-sub">High-Speed Obstacle &amp; Autonomous Telemetry</span>
+          </div>
+          <div class="ac-year">2025</div>
+        </div>
+
+        <!-- 12 -->
+        <div class="award-card-detailed" data-year="2025">
+          <div class="ac-num">12</div>
+          <div class="ac-badge">🥈 15 kg Runner-Up</div>
+          <div class="ac-info">
+            <h4 class="ac-title">JU Rhythm — Robowar</h4>
+            <span class="ac-sub">Heavyweight Combat Robotics Division</span>
+          </div>
+          <div class="ac-year">2025</div>
+        </div>
+
+        <!-- 11 -->
+        <div class="award-card-detailed" data-year="2025">
+          <div class="ac-num">11</div>
+          <div class="ac-badge">🥇 15 kg Winner</div>
+          <div class="ac-info">
+            <h4 class="ac-title">JU Rhythm — Robowar</h4>
+            <span class="ac-sub">Heavyweight Combat Arena Champion</span>
+          </div>
+          <div class="ac-year">2025</div>
+        </div>
+
+        <!-- 10 -->
+        <div class="award-card-detailed" data-year="2025">
+          <div class="ac-num">10</div>
+          <div class="ac-badge">🥇 8 kg Winner</div>
+          <div class="ac-info">
+            <h4 class="ac-title">JU Rhythm — Robowar</h4>
+            <span class="ac-sub">Middleweight Combat Robotics Champion</span>
+          </div>
+          <div class="ac-year">2025</div>
+        </div>
+
+        <!-- 9 -->
+        <div class="award-card-detailed" data-year="2025">
+          <div class="ac-num">09</div>
+          <div class="ac-badge">🥇 3 lb Winner</div>
+          <div class="ac-info">
+            <h4 class="ac-title">JU Rhythm — Robowar</h4>
+            <span class="ac-sub">Lightweight Feather Combat Champion</span>
+          </div>
+          <div class="ac-year">2025</div>
+        </div>
+
+        <!-- 8 -->
+        <div class="award-card-detailed" data-year="2025">
+          <div class="ac-num">08</div>
+          <div class="ac-badge">🥇 1st Place</div>
+          <div class="ac-info">
+            <h4 class="ac-title">ADVItya — IIT Ropar, Robowar</h4>
+            <span class="ac-sub">National Combat Engineering Champion</span>
+          </div>
+          <div class="ac-year">2025</div>
+        </div>
+
+        <!-- 7 -->
+        <div class="award-card-detailed" data-year="2024">
+          <div class="ac-num">07</div>
+          <div class="ac-badge">🥈 1st Runner-Up / 2nd Place</div>
+          <div class="ac-info">
+            <h4 class="ac-title">Technoxian World Robotics Championship — RC Car Race</h4>
+            <span class="ac-sub">International World Championship Finalist</span>
+          </div>
+          <div class="ac-year">2024</div>
+        </div>
+
+        <!-- 6 -->
+        <div class="award-card-detailed" data-year="2024">
+          <div class="ac-num">06</div>
+          <div class="ac-badge">🥈 2nd &amp; 🥉 3rd Positions</div>
+          <div class="ac-info">
+            <h4 class="ac-title">TechSpark — IIT Delhi, Robo Sumo</h4>
+            <span class="ac-sub">Autonomous &amp; High-Torque Sumo Robotics</span>
+          </div>
+          <div class="ac-year">2024</div>
+        </div>
+
+        <!-- 5 -->
+        <div class="award-card-detailed" data-year="2024">
+          <div class="ac-num">05</div>
+          <div class="ac-badge">🥈 2nd Place</div>
+          <div class="ac-info">
+            <h4 class="ac-title">Makerfest — JECRC University Jaipur</h4>
+            <span class="ac-sub">Innovation Challenge &amp; Rapid Prototyping</span>
+          </div>
+          <div class="ac-year">2024</div>
+        </div>
+
+        <!-- 4 -->
+        <div class="award-card-detailed" data-year="2024">
+          <div class="ac-num">04</div>
+          <div class="ac-badge">🏅 4th Position</div>
+          <div class="ac-info">
+            <h4 class="ac-title">COEP MindSpark — Take-Off</h4>
+            <span class="ac-sub">College of Engineering Pune Technical Festival</span>
+          </div>
+          <div class="ac-year">2024</div>
+        </div>
+
+        <!-- 3 -->
+        <div class="award-card-detailed" data-year="2024">
+          <div class="ac-num">03</div>
+          <div class="ac-badge">🥉 2nd Runner-Up / 3rd Place</div>
+          <div class="ac-info">
+            <h4 class="ac-title">AVISHKAR — NIT Karnataka (Surathkal)</h4>
+            <span class="ac-sub">IoT &amp; Technical Innovation Challenge</span>
+          </div>
+          <div class="ac-year">2024</div>
+        </div>
+
+        <!-- 2 -->
+        <div class="award-card-detailed" data-year="2024">
+          <div class="ac-num">02</div>
+          <div class="ac-badge">🥉 3rd Place</div>
+          <div class="ac-info">
+            <h4 class="ac-title">InnoSpark — Chandigarh University &times; IEEE</h4>
+            <span class="ac-sub">IEEE Student Technical Innovation Forum</span>
+          </div>
+          <div class="ac-year">2024</div>
+        </div>
+
+        <!-- 1 -->
+        <div class="award-card-detailed" data-year="2023">
+          <div class="ac-num">01</div>
+          <div class="ac-badge">🥇 1st Place — Best Innovation Stall</div>
+          <div class="ac-info">
+            <h4 class="ac-title">Innovative Bharat IIC Regional Meet — Amity University Rajasthan</h4>
+            <span class="ac-sub">Ministry of Education Innovation Cell (IIC)</span>
+          </div>
+          <div class="ac-year">2023</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <hr class="section-divider">
+
+    <!-- ==================== CERTIFICATIONS SHOWCASE ==================== -->
+    <section class="certifications-section" id="certifications">
+      <div class="cert-header">
+        <h2 class="section-title">VERIFIED CERTIFICATIONS</h2>
+        <p class="section-desc">Industry credentials from NPTEL IIT Madras, IBM, Google Cloud, and LinkedIn Learning.</p>
+      </div>
+
+      <div class="cert-grid">
+        <div class="cert-item">
+          <span class="cert-org">NPTEL &bull; IIT MADRAS</span>
+          <h4 class="cert-name">Python for Data Science</h4>
+          <span class="cert-status">Verified Certificate</span>
+        </div>
+        <div class="cert-item">
+          <span class="cert-org">IBM &bull; COURSERA</span>
+          <h4 class="cert-name">Intro to Deep Learning &amp; Neural Networks with Keras</h4>
+          <span class="cert-status">Verified Certificate</span>
+        </div>
+        <div class="cert-item">
+          <span class="cert-org">IBM &bull; COURSERA</span>
+          <h4 class="cert-name">Database and SQL for Data Science with Python</h4>
+          <span class="cert-status">Verified Certificate</span>
+        </div>
+        <div class="cert-item">
+          <span class="cert-org">IBM &bull; COURSERA</span>
+          <h4 class="cert-name">Exploratory Data Analysis for Machine Learning</h4>
+          <span class="cert-status">Verified Certificate</span>
+        </div>
+        <div class="cert-item">
+          <span class="cert-org">GOOGLE CLOUD</span>
+          <h4 class="cert-name">Introduction to Data Analytics on Google Cloud</h4>
+          <span class="cert-status">Verified Credential</span>
+        </div>
+        <div class="cert-item">
+          <span class="cert-org">GOOGLE CLOUD</span>
+          <h4 class="cert-name">Introduction to AI &amp; Machine Learning on Google Cloud</h4>
+          <span class="cert-status">Verified Credential</span>
+        </div>
+        <div class="cert-item">
+          <span class="cert-org">LINKEDIN LEARNING</span>
+          <h4 class="cert-name">Machine Learning with Python: Foundations</h4>
+          <span class="cert-status">Verified Certificate</span>
+        </div>
+        <div class="cert-item">
+          <span class="cert-org">AICTE &bull; EDUSKILLS</span>
+          <h4 class="cert-name">Virtual Internship: AI &amp; Machine Learning</h4>
+          <span class="cert-status">Government Verified</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <hr class="section-divider">
+
+    <!-- ==================== LET'S CONNECT (Updated with Blue Accents) ==================== -->
+    <section class="connect-section" id="connect">
+      <div class="connect-grid">
+
+        <!-- Column 1: Heading & Availability -->
+        <div class="connect-heading-col">
+          <h2 class="section-title">LET'S<br>CONNECT</h2>
+          <p class="connect-availability">
+            I'm currently available for full-time roles, data analytics internships, AI automation engineering opportunities, and freelance consulting.
+          </p>
+          <a href="Soham_Wadekar_Resume.pdf" download="Soham_Wadekar_Resume.pdf" class="btn-download-resume-alt">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+            <span>Download Master Resume (PDF)</span>
+          </a>
+        </div>
+
+        <!-- Column 2: Direct Contact Channels -->
+        <div class="connect-channels-col">
+
+          <!-- Email -->
+          <div class="connect-channel-item" onclick="copyContact('shwadekar10@gmail.com', 'Email address copied!')">
+            <div class="channel-icon">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </div>
+            <div class="channel-details">
+              <span class="channel-label">EMAIL</span>
+              <a href="mailto:shwadekar10@gmail.com" class="channel-value" onclick="event.stopPropagation()">shwadekar10@gmail.com</a>
+            </div>
+            <button class="copy-btn" title="Copy email">Copy</button>
+          </div>
+
+          <!-- Phone -->
+          <div class="connect-channel-item" onclick="copyContact('+91 8766768668', 'Phone number copied!')">
+            <div class="channel-icon">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            </div>
+            <div class="channel-details">
+              <span class="channel-label">PHONE</span>
+              <a href="tel:+918766768668" class="channel-value" onclick="event.stopPropagation()">+91 8766768668</a>
+            </div>
+            <button class="copy-btn" title="Copy phone">Copy</button>
+          </div>
+
+          <!-- LinkedIn -->
+          <div class="connect-channel-item">
+            <div class="channel-icon">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+            </div>
+            <div class="channel-details">
+              <span class="channel-label">LINKEDIN</span>
+              <a href="https://www.linkedin.com/in/soham-wadekar-76bb3a286" target="_blank" rel="noopener noreferrer" class="channel-value">linkedin.com/in/soham-wadekar</a>
+            </div>
+            <span class="ext-link-arrow">&nearr;</span>
+          </div>
+
+          <!-- GitHub -->
+          <div class="connect-channel-item">
+            <div class="channel-icon">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            </div>
+            <div class="channel-details">
+              <span class="channel-label">GITHUB</span>
+              <a href="https://github.com/STARBORN-10" target="_blank" rel="noopener noreferrer" class="channel-value">github.com/STARBORN-10</a>
+            </div>
+            <span class="ext-link-arrow">&nearr;</span>
+          </div>
+
+          <!-- Location -->
+          <div class="connect-channel-item static">
+            <div class="channel-icon">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            </div>
+            <div class="channel-details">
+              <span class="channel-label">LOCATION</span>
+              <span class="channel-value">Jaipur, Rajasthan, India (Open to Relocate)</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Column 3: The Reference Call-To-Action Box -->
+        <!-- "LET'S BUILD SOMETHING GREAT TOGETHER ->" -->
+        <div class="connect-action-col">
+          <div class="cta-box" onclick="openContactModal()">
+            <div class="cta-content">
+              <span class="cta-kicker">COLLABORATE</span>
+              <h3 class="cta-title">LET'S BUILD<br>SOMETHING<br>GREAT TOGETHER</h3>
+            </div>
+            <div class="cta-arrow-circle">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="editorial-footer">
+      <div class="footer-inner">
+        <span class="footer-copy">&copy; 2026 Soham Wadekar. Crafted with purpose &amp; precision.</span>
+        <div class="footer-links">
+          <a href="#hero">Back to Top &uarr;</a>
+          <a href="mailto:shwadekar10@gmail.com">shwadekar10@gmail.com</a>
+          <a href="https://github.com/STARBORN-10" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/soham-wadekar-76bb3a286" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- ==================== INTERACTIVE MODALS ==================== -->
+
+  <!-- Project Deep-Dive Modal -->
+  <div class="modal-backdrop" id="projectModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close dialog">&times;</button>
+      <div class="modal-body" id="projectModalBody">
+        <!-- Injected via JavaScript based on selected project -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Message Modal -->
+  <div class="modal-backdrop" id="contactModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-sm">
+      <button class="modal-close-btn" id="contactModalCloseBtn" aria-label="Close dialog">&times;</button>
+      <div class="modal-body">
+        <span class="modal-kicker">INITIATE CONVERSATION</span>
+        <h3 class="modal-title">Get In Touch</h3>
+        <p class="modal-desc">Send a direct message or inquiry to Soham Wadekar. You can also reach out directly at <a href="mailto:shwadekar10@gmail.com" class="accent-link">shwadekar10@gmail.com</a>.</p>
+        
+        <form class="contact-form" id="contactForm" onsubmit="handleContactSubmit(event)">
+          <div class="form-group">
+            <label for="senderName">Your Name</label>
+            <input type="text" id="senderName" name="name" required placeholder="e.g. Alex Henderson">
+          </div>
+          <div class="form-group">
+            <label for="senderEmail">Your Email</label>
+            <input type="email" id="senderEmail" name="email" required placeholder="e.g. alex@company.com">
+          </div>
+          <div class="form-group">
+            <label for="senderSubject">Subject / Role</label>
+            <input type="text" id="senderSubject" name="subject" required placeholder="e.g. AI Automation Engineer Opportunity / Project Inquiry">
+          </div>
+          <div class="form-group">
+            <label for="senderMessage">Message</label>
+            <textarea id="senderMessage" name="message" rows="4" required placeholder="Tell me about the problem, timeline, or position..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary w-100">
+            <span>Send Message via Email Client</span>
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
