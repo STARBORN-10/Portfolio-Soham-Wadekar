@@ -27,7 +27,7 @@
 - `styles.css` — Custom CSS design system with Royal Sapphire Blue accent tokens, dark/light themes, and fluid animations.
 - `script.js` — Micro-interaction engine: magnetic cursor, 3D mouse parallax tilt, dynamic 17-achievement ticker cycle, modal case studies, and clipboard toasts.
 - `profilepicture.png` / `profilepicture_cutout.png` — High-resolution portrait assets.
-- Resume — Viewable and downloadable from [Google Drive](https://drive.google.com/file/d/1uEY6BkzhCojgtM04uDlaFbZEdVk3WNH8/view?usp=sharing).
+- Resume — Viewable and downloadable from [Google Drive](https://drive.google.com/file/d/1HkItkV9fam0VU-RiAfXGUH90CFWFBnGW/view?usp=drive_link).
 
 ---
 
