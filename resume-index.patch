@@ -1,0 +1,15 @@
+diff --git a/index.html b/index.html
+--- a/index.html
++++ b/index.html
+@@ -106 +106 @@
+-            <a href="Soham_Wadekar_Resume.pdf" download="Soham_Wadekar_Resume.pdf" class="btn-secondary" id="downloadResumeHero">
++            <a href="https://drive.google.com/file/d/1uEY6BkzhCojgtM04uDlaFbZEdVk3WNH8/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-secondary" id="viewResumeHero">
+@@ -108 +108 @@
+-              <span>Download Resume</span>
++              <span>View Resume</span>
+@@ -1205 +1205 @@
+-          <a href="Soham_Wadekar_Resume.pdf" download="Soham_Wadekar_Resume.pdf" class="btn-download-resume-alt">
++          <a href="https://drive.google.com/file/d/1uEY6BkzhCojgtM04uDlaFbZEdVk3WNH8/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-download-resume-alt">
+@@ -1207 +1207 @@
+-            <span>Download Master Resume (PDF)</span>
++            <span>View Resume (PDF)</span>
