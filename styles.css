@@ -1142,13 +1142,16 @@ body {
 .project-hover-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(26, 86, 219, 0.88);
+  background: rgba(26, 86, 219, 0.90);
   backdrop-filter: blur(4px);
   display: flex;
   align-items: center;
   justify-content: center;
   opacity: 0;
   transition: opacity var(--transition-fast);
+  text-decoration: none !important;
+  cursor: pointer;
+  z-index: 5;
 }
 .project-preview-frame:hover .project-hover-overlay {
   opacity: 1;
@@ -1160,6 +1163,13 @@ body {
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform var(--transition-fast);
+}
+.project-hover-overlay:hover .overlay-cta {
+  transform: translateY(-1px);
 }
 
 .project-description {

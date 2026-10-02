@@ -382,7 +382,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "Interactive React frontend with visual danger/normal metric range gauges and downloadable patient-friendly health briefs.",
         "Peer-reviewed academic methodology honored with the 2nd Prize at the ICAHTE-2026 International Conference."
       ],
-      github: "https://github.com/STARBORN-10"
+      github: "https://github.com/STARBORN-10/medical_report_analyzer"
     },
     invoice: {
       num: "02",
@@ -394,10 +394,10 @@ document.addEventListener('DOMContentLoaded', () => {
       features: [
         "Modular SQL-backed ETL architecture automating ingestion, validation, duplicate detection, and relational schema mapping.",
         "Statistical anomaly detection flagging irregular unit charges, phantom fees, and statistical outliers before accounting sign-off.",
-        "Machine learning regression model trained on historical logistics data predicting freight expenditures with &gt;92% accuracy.",
+        "Machine learning regression model trained on historical logistics data predicting freight expenditures with >92% accuracy.",
         "Interactive executive Streamlit dashboard with risk heatmaps, vendor dispute queues, and audit trail exports."
       ],
-      github: "https://github.com/STARBORN-10"
+      github: "https://github.com/STARBORN-10/-Invoice-Intelligence-System"
     },
     techplusai: {
       num: "03",
@@ -412,7 +412,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "Automated delivery pipeline writing structured schemas (Date, Topic, Score, Summary, Source URL) into Google Sheets and webhook endpoints.",
         "Significantly reduces manual tech news research time by over 90%."
       ],
-      github: "https://github.com/STARBORN-10"
+      github: "https://github.com/STARBORN-10/TechPlusAI---Daily-Tech-News-Automation",
+      secondaryGithub: { name: "TOI News Pipeline", url: "https://github.com/STARBORN-10/TOI-News-Automation" }
     },
     retail: {
       num: "04",
@@ -427,7 +428,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "Engineered executive KPI dashboards visualizing regional profit margins, category velocities, and sales rep performance.",
         "Conducted deep telecom customer churn analysis isolating critical behavioral risk factors."
       ],
-      github: "https://github.com/STARBORN-10"
+      github: "https://github.com/yogeshsince2023/UrbanNest-Lifestyle-Store"
     },
     loandefault: {
       num: "05",
@@ -442,7 +443,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "Trained and evaluated Logistic Regression, Random Forest, and Gradient Boosting classifiers, achieving an 89.4% ROC-AUC.",
         "Implemented feature importance extraction explaining top predictive risk drivers to ensure financial transparency."
       ],
-      github: "https://github.com/STARBORN-10"
+      github: "https://github.com/STARBORN-10/Loan-Default-Risk-Predictor"
     },
     thirstcheck: {
       num: "06",
@@ -457,7 +458,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "Responsive web dashboard presenting live hydration gauge visualizations and automated threshold warning alarms.",
         "Tested across various physical exercise conditions with high reliability."
       ],
-      github: "https://github.com/STARBORN-10"
+      github: "https://github.com/STARBORN-10",
+      secondaryGithub: { name: "Job Application Autopilot", url: "https://github.com/STARBORN-10/Job-Application-Autopilot" }
     },
     pizzahut: {
       num: "07",
@@ -471,7 +473,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "Pinpointed top revenue-generating menu items, regional preference variances, and peak rush operating hours.",
         "Utilized cumulative percentage distributions and window ranking functions to assist inventory planning and margin optimization."
       ],
-      github: "https://github.com/STARBORN-10"
+      github: "https://github.com/STARBORN-10/pizza-sales---sql"
     }
   };
 
@@ -505,11 +507,16 @@ document.addEventListener('DOMContentLoaded', () => {
         ${data.stack.map(s => `<span style="background: var(--bg-subtle); border: 1px solid var(--border-light); color: var(--text-primary); font-family: var(--font-mono); font-size: 12px; padding: 5px 10px; border-radius: 4px;">${s}</span>`).join('')}
       </div>
 
-      <div style="display: flex; gap: 14px;">
+      <div style="display: flex; flex-wrap: wrap; gap: 14px;">
         <a href="${data.github}" target="_blank" rel="noopener noreferrer" class="btn-primary">
           <span>View Source on GitHub</span>
           <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
         </a>
+        ${data.secondaryGithub ? `
+        <a href="${data.secondaryGithub.url}" target="_blank" rel="noopener noreferrer" class="btn-secondary" style="display: inline-flex; align-items: center; gap: 8px;">
+          <span>${data.secondaryGithub.name}</span>
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        </a>` : ''}
         <button class="btn-secondary" onclick="closeProjectModal()">Close</button>
       </div>
     `;
