@@ -368,8 +368,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- 10. PROJECT DEEP DIVE MODAL DATABASE ---
   const projectDatabase = {
-    medisense: {
+    autopilot: {
       num: "01",
+      name: "JOB APPLICATION AUTOPILOT",
+      subtitle: "AI Job Discovery & Application Automation Engine",
+      award: "⚡ Autonomous AI Career Agent",
+      overview: "Developed an AI-powered Job Application Autopilot using Make.com, IndianAPI, Google Gemini, Google Sheets, and Telegram Bot. Automates job fetching, AI-based resume matching and relevance scoring, and personalized cover letter generation for each job. Integrates Google Sheets for application tracking and Telegram for real-time job alerts, creating an end-to-end automated job discovery and application assistance workflow.",
+      stack: ["Make.com", "Google Gemini API", "Telegram Bot API", "Google Sheets API", "IndianAPI", "Webhooks", "JSON"],
+      features: [
+        "Continuous automated job fetching via IndianAPI filtering for targeted high-match engineering roles.",
+        "AI-driven resume matching and deep semantic relevance scoring powered by Google Gemini.",
+        "Personalized, role-tailored cover letter synthesis generated on-the-fly for every qualifying job match.",
+        "Integrated Google Sheets database for full status tracking and instant Telegram push alerts for live dispatches."
+      ],
+      github: "https://github.com/STARBORN-10/Job-Application-Autopilot"
+    },
+    medisense: {
+      num: "02",
       name: "MEDISENSE",
       subtitle: "AI Medical Report Analyzer & Clinical OCR Pipeline",
       award: "🥈 2nd Prize Award — ICAHTE-2026 International Conference",
@@ -385,7 +400,7 @@ document.addEventListener('DOMContentLoaded', () => {
       github: "https://github.com/STARBORN-10/medical_report_analyzer"
     },
     invoice: {
-      num: "02",
+      num: "03",
       name: "INVOICE INTELLIGENCE SYSTEM",
       subtitle: "SQL-Backed ETL Pipeline & Statistical Anomaly Detection",
       award: "Enterprise Grade Solution",
@@ -400,7 +415,7 @@ document.addEventListener('DOMContentLoaded', () => {
       github: "https://github.com/STARBORN-10/-Invoice-Intelligence-System"
     },
     techplusai: {
-      num: "03",
+      num: "04",
       name: "TECHPLUS AI",
       subtitle: "Autonomous News Aggregation & LLM Synthesis Engine",
       award: "Autonomous AI Automation Pipeline",
@@ -416,7 +431,7 @@ document.addEventListener('DOMContentLoaded', () => {
       secondaryGithub: { name: "TOI News Pipeline", url: "https://github.com/STARBORN-10/TOI-News-Automation" }
     },
     retail: {
-      num: "04",
+      num: "05",
       name: "RETAIL SALES & INVENTORY PIPELINE",
       subtitle: "100,000+ Multi-Category Transaction Analytics Engine",
       award: "Production Project @ Renu Sharma Foundation",
@@ -431,7 +446,7 @@ document.addEventListener('DOMContentLoaded', () => {
       github: "https://github.com/yogeshsince2023/UrbanNest-Lifestyle-Store"
     },
     loandefault: {
-      num: "05",
+      num: "06",
       name: "LOAN DEFAULT RISK PREDICTOR",
       subtitle: "Credit Risk Classification & Supervised ML Pipeline",
       award: "Machine Learning Pipeline",
@@ -446,7 +461,7 @@ document.addEventListener('DOMContentLoaded', () => {
       github: "https://github.com/STARBORN-10/Loan-Default-Risk-Predictor"
     },
     thirstcheck: {
-      num: "06",
+      num: "07",
       name: "THIRSTCHECK PRO",
       subtitle: "IoT Real-Time Hydration Telemetry & Web Dashboard",
       award: "IoT Engineering Project",
@@ -458,11 +473,10 @@ document.addEventListener('DOMContentLoaded', () => {
         "Responsive web dashboard presenting live hydration gauge visualizations and automated threshold warning alarms.",
         "Tested across various physical exercise conditions with high reliability."
       ],
-      github: "https://github.com/STARBORN-10",
-      secondaryGithub: { name: "Job Application Autopilot", url: "https://github.com/STARBORN-10/Job-Application-Autopilot" }
+      github: "https://github.com/STARBORN-10"
     },
     pizzahut: {
-      num: "07",
+      num: "08",
       name: "PIZZA HUT SALES ANALYTICS",
       subtitle: "Relational SQL Data Modeling & Peak Order Profiling",
       award: "SQL Query Mastery",
